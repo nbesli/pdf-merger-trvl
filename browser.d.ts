@@ -55,7 +55,7 @@ declare module "pdf-merger-js/browser" {
     setMetadata(metadata: Metadata): Promise<void>;
   }
 
-  export = PDFMerger;
+  export default PDFMerger;
 }
 
 declare type PdfInput = Uint8Array | ArrayBuffer | Blob | URL | File | String | string;
